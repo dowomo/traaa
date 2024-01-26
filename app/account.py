@@ -7,7 +7,7 @@ from firebase_admin import firestore  #database salvestamise jaoks
 
 
 
-cred = credentials.Certificate('dowomoapp-734e0283870c.json')
+cred = credentials.Certificate("dowomoapp-734e0283870c.json")
 firebase_admin.initialize_app(cred)
 
 #db = firestore.client()
